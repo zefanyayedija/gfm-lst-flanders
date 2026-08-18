@@ -1,0 +1,14 @@
+{
+  "region": "wallonia",
+  "region_source": "bounding box fallback, boundary lookup failed",
+  "normalisation_source": "model config (pretrained_cfg.mean/pretrained_cfg.std)",
+  "dates": [
+    "2022-06-01",
+    "2022-08-31"
+  ],
+  "cloud_max_pct": 50,
+  "tiles_requested": 15,
+  "tiles_failed": [],
+  "seed": 42,
+  "backbone": "ibm-nasa-geospatial/Prithvi-EO-2.0-300M-TL"
+}

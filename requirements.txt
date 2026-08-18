@@ -1,0 +1,16 @@
+# Versions recorded in data/environment.json at the time the reported numbers were produced.
+# Tree-building details in scikit-learn change between releases, so a different version can
+# give slightly different results from the same seed.
+numpy==2.0.2
+pandas==2.2.2
+scikit-learn==1.6.1
+matplotlib==3.10.0
+seaborn==0.13.2
+
+# Maps only. Unpinned because nothing in the analysis depends on their behaviour.
+geopandas
+contextily
+
+# Rebuilding the dataset from Earth Engine additionally needs terratorch, earthengine-api,
+# geemap, rasterio and huggingface_hub. The notebook installs those on demand, and they are
+# left out here so that reproducing the analysis does not pull in a deep learning stack.

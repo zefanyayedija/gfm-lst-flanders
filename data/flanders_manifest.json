@@ -1,0 +1,14 @@
+{
+  "region": "flanders",
+  "region_source": "FAO GAUL administrative boundary",
+  "normalisation_source": "model config (pretrained_cfg.mean/pretrained_cfg.std)",
+  "dates": [
+    "2022-06-01",
+    "2022-08-31"
+  ],
+  "cloud_max_pct": 50,
+  "tiles_requested": 30,
+  "tiles_failed": [],
+  "seed": 42,
+  "backbone": "ibm-nasa-geospatial/Prithvi-EO-2.0-300M-TL"
+}
